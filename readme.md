@@ -14,7 +14,7 @@ Follow the steps below to start it up.
 
 2. Navigate into the project directory:
 
-`cd yourprojec`
+`cd <yourprojectpath>`
 
 3. Install the dependencies:
 
