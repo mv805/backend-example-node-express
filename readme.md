@@ -48,7 +48,7 @@ You will need to first setup your database on your local machine for demo purpos
 10. create a .env file (just name it like that, .env) in your root directory. copy paste the example contents but put in your password and update other info if needed, including the port.
 
 > [!CAUTION]
-You can lookup what .env file is for but make sure you add its included in gitignore ( I did add it by default but double check). you never want to commit the .env file to the repository because those are secret fields.
+I would review what a .env file is if you are not aware. Its basically where you store the secret fields like db login information. Your code will refer to the fields in that file and you will never commit the file to the repository. It will just stay on your local machine.
 
 ## Start the server
 
