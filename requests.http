@@ -1,0 +1,14 @@
+### Get all customers
+GET http://localhost:3000/
+
+### Add a new customer
+POST http://localhost:3000/add
+Content-Type: application/json
+
+{
+  "name": "Jill Doe",
+  "email": "jillD@example.com",
+  "gender": "F"
+}
+
+### find a customer
