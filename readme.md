@@ -35,9 +35,11 @@ You will need to first setup your database on your local machine for demo purpos
 
 5. login to your database on local host through the workbench. Start a new query and paste the data from the database file.
 
-6. Run the query, this should setup your db. Confirm that 'customers' database was created and some users are in it
+6. Run the query, this should setup your db. Confirm that 'customers' database was created and some users are in it.
    
 `SELECT * FROM customers.customers;`
+
+![customers created](./images/dbcomplete.PNG)
 
 8. Go to the file db.js, you will see you the login info is referencing a .env file. You need this file so that you can hide your login details in database so we never show it on the repository (people will steal it).
 
